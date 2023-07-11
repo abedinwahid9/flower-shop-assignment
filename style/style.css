@@ -232,6 +232,15 @@ main {
   height: 350px;
 }
 
+.product-item p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+}
+
+.product-item button {
+  margin-bottom: 10px;
+}
+
 /* instagram section style */
 .instagram-content {
   text-align: center;
@@ -263,7 +272,7 @@ main {
 /* latest-section style */
 
 .latest-section {
-  background-image: url("../Flower-Asset/Rectangle-9.png");
+  background-image: url("../Flower-Asset/");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 125px 300px;
