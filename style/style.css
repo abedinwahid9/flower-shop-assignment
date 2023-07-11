@@ -33,14 +33,14 @@ section {
 /* header section style */
 
 .header {
-  height: 800px;
-
+  height: 100%;
   background: rgba(229, 84, 115, 0.1);
 }
 
 .header-section {
   display: flex;
   gap: 100px;
+  position: relative;
 }
 
 .header-content {
@@ -62,7 +62,9 @@ section {
 .header img {
   padding-top: 50px;
   width: 630px;
-  height: 800px;
+  height: 100%;
+  position: absolute;
+  right: 0;
 }
 
 /* main section style */
@@ -149,8 +151,10 @@ main {
 }
 
 .services p {
+  margin: 25px;
   color: rgba(39, 39, 39, 0.8);
   font-size: 24px;
+  font-weight: 600;
 }
 /* hot deals section */
 .hot-deals {
@@ -283,4 +287,31 @@ main {
   border: 0;
   border-radius: 8px;
   background: #fff;
+}
+
+/* footer section */
+.footer-contain {
+  background: #111010;
+  padding: 150px 0;
+  text-align: center;
+}
+
+.footer-contain h1 {
+  color: #e55473;
+  font-size: 48px;
+}
+
+.footer-contain h1 > span {
+  color: #fff;
+}
+
+.footer-contain p {
+  margin: 25px 0;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 18px;
+}
+
+.footer-contain .footer-copyright {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
 }
