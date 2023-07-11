@@ -263,7 +263,7 @@ main {
 /* latest-section style */
 
 .latest-section {
-  background-image: url("/Flower-Asset/Rectangle-9.png");
+  background-image: url("Flower-Asset/Rectangle-9.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 125px 300px;
