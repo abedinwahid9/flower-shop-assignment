@@ -14,7 +14,8 @@ body {
 }
 
 .container {
-  margin: 0 240px;
+  margin-left: 240px;
+  margin-right: 240px;
 }
 
 .btn-primary {
@@ -216,5 +217,70 @@ main {
 }
 
 .product-item img {
-  width: 100%;
+  height: 350px;
+}
+
+/* instagram section style */
+.instagram-content {
+  text-align: center;
+}
+
+.instagram-content h2 {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.instagram-content p {
+  margin: 25px 0 50px 0;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+}
+
+.img-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.img-container div {
+  width: 360px;
+  height: 400px;
+}
+
+/* latest-section style */
+
+.latest-section {
+  background-image: url(/Flower-Asset/Rectangle\ 9.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 125px 300px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.latest-section h2 {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.latest-section p {
+  margin: 20px 0 50px 0;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+}
+
+.Subscribe-section {
+  display: flex;
+  gap: 20px;
+}
+
+.Subscribe-section input {
+  width: 700px;
+  height: 64px;
+  padding: 22px;
+  border: 0;
+  border-radius: 8px;
+  background: #fff;
 }
